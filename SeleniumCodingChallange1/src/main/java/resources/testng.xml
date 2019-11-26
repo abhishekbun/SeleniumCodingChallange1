@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium Coding challange 1">
+
+	<test name="Search the Flat Availability">
+	
+		<classes>
+			<class name="org.abk.testcases.HomePageTest" />
+		</classes>
+	
+	</test>
+
+
+</suite>
