@@ -1,0 +1,2 @@
+name|age|dob|address|mobileno|state|country
+abhishek|	|22-11-1995|street 1|9398852238|telangna|india
