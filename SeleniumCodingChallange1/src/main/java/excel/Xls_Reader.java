@@ -1,5 +1,7 @@
 package excel;
 
+//http://mirrors.estointernet.in/apache/poi/release/bin/poi-bin-4.1.1-20191023.zip
+
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.util.Calendar;
@@ -97,7 +99,7 @@ public class Xls_Reader {
 			// if(cell.getCellType()==Xls_Reader.CELL_TYPE_STRING)
 			// return cell.getStringCellValue();
 			else if ((cell.getCellType().name().equals("NUMERIC")) || (cell.getCellType().name().equals("FORMULA"))) {
-
+				//cell.getCellType().name()
 				String cellText = String.valueOf(cell.getNumericCellValue());
 				if (HSSFDateUtil.isCellDateFormatted(cell)) {
 					// format in form of M/D/YY

@@ -19,6 +19,7 @@ public class ReadTextFile {
 			for(int i=0; i<words.length; i++) {
 				
 				System.out.print(words[i]+"  ");
+				//System.out.println(words[0]+words[1]+words[2]+words[3]+words[4]+words[5]+words[6]);
 				
 			}
 		}
